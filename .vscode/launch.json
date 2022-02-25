@@ -1,0 +1,116 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch myFirstForm",
+            "request": "launch",
+            "mainClass": "myFirstForm",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch JFrameExample",
+            "request": "launch",
+            "mainClass": "JFrameExample",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch encapsulation",
+            "request": "launch",
+            "mainClass": "encapsulation",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommandLine",
+            "request": "launch",
+            "mainClass": "CommandLine",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch C",
+            "request": "launch",
+            "mainClass": "C",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInheritance",
+            "request": "launch",
+            "mainClass": "TestInheritance",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch course",
+            "request": "launch",
+            "mainClass": "course",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Programmer",
+            "request": "launch",
+            "mainClass": "Programmer",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculation",
+            "request": "launch",
+            "mainClass": "calculation",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculation",
+            "request": "launch",
+            "mainClass": "com.codewithhk.calculation",
+            "projectName": "java_a3b45dfa"
+        },
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/<your program>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
